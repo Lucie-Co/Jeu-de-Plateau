@@ -14,8 +14,7 @@ Le joueur ne disposant plus que de deux pions perdra la partie.
 
 ## Instructrions d'installation
 
-Ce jeu nécessite l'utilisation du langage Python et l'utilisation d'un IDE (VSCode, PyCharm...)
-La bibliothèques et ressources utilisées : Tkinter pour la gestion des graphismes et des événements.
+Ce jeu nécessite l'utilisation du langage Python et utilise la bibliothèque tKinter pour la gestion des graphismes et des événements.
 
 ### Prérequis
 
