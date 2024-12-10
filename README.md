@@ -40,12 +40,6 @@ Ce jeu nécessite l'utilisation du langage Python et utilise la bibliothèque tK
      ```
    - Une fenêtre graphique devrait s'ouvrir. Si ce n'est pas le cas, réinstallez Python.
 
-3. **Lancez le jeu :**
-   - Allez dans le dossier `game` :
-     ```bash
-     cd game
-     python main.py
-     ```
 ---
 
 #### **Linux**
@@ -66,13 +60,6 @@ Ce jeu nécessite l'utilisation du langage Python et utilise la bibliothèque tK
      ```bash
      sudo apt-get install python3-tk
      ```
-
-3. **Lancez le jeu :**
-   - Exécutez dans le terminal :
-     ```bash
-     cd game
-     python3 main.py
-     ```
 ---
 
 #### **macOS**
@@ -91,13 +78,25 @@ Ce jeu nécessite l'utilisation du langage Python et utilise la bibliothèque tK
      ```
    - Si `tkinter` n'est pas disponible, installez XQuartz :
      - Téléchargez-le depuis [xquartz.org](https://www.xquartz.org/).
+---
 
-3. **Lancez le jeu :**
-   - Naviguez dans le dossier contenant `main.py` et tapez :
-     ```bash
-     cd game
-     python3 main.py
-     ```
+## Lancement du jeu:
+**Localiser le dossier `game` du jeu sur votre ordinateur:**
+- Si vous avez téléchargé le projet en `.zip`, décompressez-le dans un dossier de votre choix.
+- Aller sur le dossier game
+- Notez l'emplacement exact du dossier sur votre ordinateur: cliquez avec le bouton droit sur le dossier et choisissez "Copier le chemin" qui ressemblera à C: ....\telechargement\Jeu de plateau\game
+
+**Exécution du jeu**
+- Windows:
+  ```bash
+  cd *coller le chemin copier*
+  python main.py
+  ```
+- Linux et macOS:
+  ```bash
+  cd *coller le chemin copier*
+  python main.py
+  ```
 ---
 
 ## Exemple d'utilisation
